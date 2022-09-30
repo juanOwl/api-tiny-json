@@ -1,5 +1,5 @@
 import requests, os, sys, json
-BASE_URL = 'https://api.tiny.com.br/api2/produtos.pesquisa.php'
+BASE_URL = 'https://api.tiny.com.br/api2/pedidos.pesquisa.php'
 token = '5926d5666909d73a235f437ed6afa137ba0fb081'
 pesquisa = ''
 formato = 'JSON'

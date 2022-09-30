@@ -30,11 +30,25 @@
       }
     },
     "req_2": {
-      "URL": "https://api.tiny.com.br/api2/produtos.pesquisa.php",
+      "URL": "https://api.tiny.com.br/api2/pedidos.pesquisa.php",
       "args": {
-        "pesquisa": "",
         "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
-        "formato": "JSON"
+        "formato": "JSON",
+        "numero": "",
+        "cliente": "",
+        "cpf_cnpj": "",
+        "dataInicial": "",
+        "dataFinal": "",
+        "dataAlteracao": "",
+        "situacao": "",
+        "numeroEcommerce": "",
+        "idVendedor": "",
+        "nomeVendedor": "",
+        "dataInicialOcorrencia": "",
+        "dataFinalOcorrencia": "",
+        "situacaoOcorrencia": "",
+        "pagina": "",
+        "sort": ""
       },
       "response": {
         "retorno": {
@@ -258,7 +272,70 @@
       "response": ""
     },
     "req_9": {
-        
+      "URL": "https://api.tiny.com.br/api2/pedido.alterar.situacao",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "id": "",
+        "situacao": "",
+        "formato": "JSON"
+      },
+      "response": ""
+    },
+    "req_10": {
+      "URL": "https://api.tiny.com.br/api2/pedido.marcadores.incluir",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "idPedido": "",
+        "marcadores": "",
+        "formato": "JSON"
+      },
+      "response": ""
+    },
+    "req_11": {
+      "URL": "https://api.tiny.com.br/api2/pedido.marcadores.remover",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "idPedido": "",
+        "marcadores": "",
+        "formato": "JSON"
+      },
+      "response": ""
+    },
+    "req_12": {
+      "URL": "https://api.tiny.com.br/api2/pedido.lancar.estoque.php",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "id": "",
+        "formato": "JSON"
+      },
+      "response": ""
+    },
+    "req_13": {
+        "URL": "https://api.tiny.com.br/api2/pedido.estornar.estoque.php",
+        "args": {
+          "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+          "id": "",
+          "formato": "JSON"           
+        },
+        "response": ""
+    },
+    "req_14": {
+        "URL": "https://api.tiny.com.br/api2/pedido.lancar.contas.php",
+        "args": {
+          "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+          "id": "",
+          "formato": "JSON"           
+        },
+        "response": ""
+    },
+    "req_15": {
+        "URL": "https://api.tiny.com.br/api2/pedido.estornar.contas.php",
+        "args": {
+          "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+          "id": "",
+          "formato": "JSON"           
+        },
+        "response": ""
     }
   }
 }
