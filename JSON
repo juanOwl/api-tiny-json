@@ -1,7 +1,5 @@
 {
   "API_TINY": {
-
-    
     "req_1": {
       "URL": "https://api.tiny.com.br/api2/info.php",
       "args": {
@@ -20,7 +18,7 @@
             "numero": "32",
             "bairro": "Parque Alvorada I",
             "complemento": "",
-            "cidade": "Luzi\u00e2nia",
+            "cidade": "Luziânia",
             "estado": "GO",
             "cep": "72.836-060",
             "fone": "(61) 4042-1072",
@@ -29,14 +27,172 @@
             "regime_tributario": "Regime Normal"
           }
         }
+      }
+    },
+    "req_2": {
+      "URL": "https://api.tiny.com.br/api2/produtos.pesquisa.php",
+      "args": {
+        "pesquisa": "",
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "formato": "JSON"
       },
-    
-    "req_2" : {
+      "response": {
+        "retorno": {
+          "status_processamento": "3",
+          "status": "OK",
+          "pagina": 1,
+          "numero_paginas": 1,
+          "produtos": [
+            {
+              "produto": {
+                "id": "657032726",
+                "nome": "Bermuda",
+                "codigo": "210987654321",
+                "preco": 9.65,
+                "preco_promocional": 0,
+                "unidade": "Pc",
+                "gtin": "7898485770071",
+                "tipoVariacao": "N",
+                "localizacao": "PA01-R02",
+                "preco_custo": 0,
+                "preco_custo_medio": 0,
+                "situacao": "I"
+              }
+            },
+            {
+              "produto": {
+                "id": "657032715",
+                "nome": "Calça",
+                "codigo": "",
+                "preco": 8.72,
+                "preco_promocional": 0,
+                "unidade": "Un",
+                "gtin": "7898485770070",
+                "tipoVariacao": "N",
+                "localizacao": "Estoque Superior",
+                "preco_custo": 0,
+                "preco_custo_medio": 0,
+                "situacao": "I"
+              }
+            },
+            {
+              "produto": {
+                "id": "657032751",
+                "nome": "Camisa",
+                "codigo": "210987654350",
+                "preco": 12,
+                "preco_promocional": 10.2,
+                "unidade": "Un",
+                "gtin": "7898485770074",
+                "tipoVariacao": "N",
+                "localizacao": "Prateleira A",
+                "preco_custo": 0,
+                "preco_custo_medio": 0,
+                "situacao": "I"
+              }
+            },
+            {
+              "produto": {
+                "id": "657032759",
+                "nome": "Camisa Algodão",
+                "codigo": "PP-0001-00",
+                "preco": 32,
+                "preco_promocional": 0,
+                "unidade": "Un",
+                "gtin": "7898485770075",
+                "tipoVariacao": "P",
+                "localizacao": "Prateleira A",
+                "preco_custo": 0,
+                "preco_custo_medio": 0,
+                "situacao": "I"
+              }
+            },
+            {
+              "produto": {
+                "id": "657032763",
+                "nome": "Camisa Algodão - GG - Branco",
+                "codigo": "PP-0001-01",
+                "preco": 32,
+                "preco_promocional": 0,
+                "unidade": "Un",
+                "gtin": "7898485770076",
+                "tipoVariacao": "V",
+                "localizacao": "Prateleira A",
+                "preco_custo": 0,
+                "preco_custo_medio": 0,
+                "situacao": "I"
+              }
+            },
+            {
+              "produto": {
+                "id": "657032704",
+                "nome": "Lampada de led",
+                "codigo": "",
+                "preco": 5.89,
+                "preco_promocional": 0,
+                "unidade": "Pc",
+                "gtin": "7898485770069",
+                "tipoVariacao": "N",
+                "localizacao": "Corredor A",
+                "preco_custo": 0,
+                "preco_custo_medio": 0,
+                "situacao": "I"
+              }
+            },
+            {
+              "produto": {
+                "id": "657032645",
+                "nome": "Lâmpada fluorescente",
+                "codigo": "FL100",
+                "preco": 10,
+                "preco_promocional": 7.5,
+                "unidade": "Cx",
+                "gtin": "7898485770068",
+                "tipoVariacao": "N",
+                "localizacao": "Prateleira B",
+                "preco_custo": 0,
+                "preco_custo_medio": 0,
+                "situacao": "I"
+              }
+            },
+            {
+              "produto": {
+                "id": "657032739",
+                "nome": "Lápis de Cor",
+                "codigo": "210987654336",
+                "preco": 2.36,
+                "preco_promocional": 0,
+                "unidade": "Un",
+                "gtin": "7898485770072",
+                "tipoVariacao": "N",
+                "localizacao": "Estoque Superior",
+                "preco_custo": 0,
+                "preco_custo_medio": 0,
+                "situacao": "I"
+              }
+            },
+            {
+              "produto": {
+                "id": "657032609",
+                "nome": "Telefone",
+                "codigo": "FL100",
+                "preco": 10,
+                "preco_promocional": 8.5,
+                "unidade": "Cx",
+                "gtin": "7898485770067",
+                "tipoVariacao": "N",
+                "localizacao": "Prateleira A",
+                "preco_custo": 0,
+                "preco_custo_medio": 0,
+                "situacao": "I"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "req_3" : {
         
-    }
-    
-    
-    
     }
   }
 }
