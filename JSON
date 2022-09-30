@@ -1,0 +1,42 @@
+{
+  "API_TINY": {
+
+    
+    "req_1": {
+      "URL": "https://api.tiny.com.br/api2/info.php",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "formato": "JSON"
+      },
+      "response": {
+        "retorno": {
+          "status_processamento": "3",
+          "status": "OK",
+          "conta": {
+            "razao_social": "uniplastico ltda",
+            "cnpj_cpf": "37.612.611/0001-09",
+            "fantasia": "",
+            "endereco": "br040 km 19",
+            "numero": "32",
+            "bairro": "Parque Alvorada I",
+            "complemento": "",
+            "cidade": "Luzi\u00e2nia",
+            "estado": "GO",
+            "cep": "72.836-060",
+            "fone": "(61) 4042-1072",
+            "email": "RENAN.USELIMP@GMAIL.COM",
+            "inscricao_estadual": "",
+            "regime_tributario": "Regime Normal"
+          }
+        }
+      },
+    
+    "req_2" : {
+        
+    }
+    
+    
+    
+    }
+  }
+}
