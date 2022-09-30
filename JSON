@@ -191,7 +191,73 @@
         }
       }
     },
-    "req_3" : {
+    "req_3": {
+      "URL": "https://api.tiny.com.br/api2/pedido.obter.php",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "id": "",
+        "formato": "JSON"
+      },
+      "response": ""
+    },
+    "req_4": {
+      "URL": "https://api.tiny.com.br/api2/pedido.incluir.php",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "pedido": "",
+        "formato": "JSON"
+      },
+      "response": ""
+    },
+    "req_5": {
+      "URL": "https://api.tiny.com.br/api2/pedido.alterar.php",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "id": ""
+      },
+      "response": ""
+    },
+    "req_6": {
+      "URL": "https://api.tiny.com.br/api2/gerar.ordem.producao.pedido.php",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "id": "",
+        "lancarEstoque": "",
+        "formato": "JSON"
+      },
+      "response": ""
+    },
+    "req_7": {
+      "URL": "https://api.tiny.com.br/api2/gerar.nota.fiscal.pedido.php",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "id": "",
+        "modelo": "",
+        "formato": "JSON"
+      },
+      "response": ""
+    },
+    "req_8": {
+      "URL": "https://api.tiny.com.br/api2/cadastrar.codigo.rastreamento.pedido.php",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "id": "",
+        "codigoRastreamento": "",
+        "urlRastreamento": "",
+        "formaEnvio": "",
+        "formaFrete": "",
+        "freteEmpresa": "",
+        "dataPrevista": "",
+        "transportadora": "",
+        "volumes": "",
+        "pesoBruto": "",
+        "pesoLiquido": "",
+        "observacoes": "",
+        "formato": "JSON"
+      },
+      "response": ""
+    },
+    "req_9": {
         
     }
   }
