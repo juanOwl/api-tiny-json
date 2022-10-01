@@ -413,8 +413,248 @@
           },
           "response": ""
     },
-    "req_19": {
+    "req_20": {
         "URL": "https://api.tiny.com.br/api2/produtos.pesquisa.php"
+    },
+    "req_21": {
+        "URL": "https://api.tiny.com.br/api2/produto.obter.php"
+    },
+    "req_22": {
+        "URL": "https://api.tiny.com.br/api2/produto.incluir.php"
+    },
+    "req_23": {
+        "URL": "https://api.tiny.com.br/api2/produto.alterar.php"
+    },
+    "req_24": {
+        "URL": "https://api.tiny.com.br/api2/produto.obter.estoque.php"
+    },
+    "req_25": {
+        "URL": "https://api.tiny.com.br/api2/produto.obter.estrutura.php"
+    },
+    "req_26": {
+        "URL": "https://api.tiny.com.br/api2/produto.obter.tags"
+    },
+    "req_27": {
+        "URL": "https://api.tiny.com.br/api2/lista.atualizacoes.produtos"
+    },
+    "req_28": {
+        "URL": "https://api.tiny.com.br/api2/lista.atualizacoes.estoque"
+    },
+    "req_29": {
+        "URL": "https://api.tiny.com.br/api2/produto.atualizar.estoque.php"
+    },
+    "req_30": {
+        "URL": "https://api.tiny.com.br/api2/produtos.categorias.arvore.php"
+    },
+    "req_31": {
+        "URL": "https://api.tiny.com.br/api2/produto.atualizar.precos.php"
+    },
+    "req_32": {
+        "URL": "https://api.tiny.com.br/api2/pdv.pedido.obter.php"
+    },
+    "req_33": {
+        "URL": "https://api.tiny.com.br/api2/pdv.pedidos.php"
+    },
+    "req_34": {
+        "URL": "https://api.tiny.com.br/api2/pdv.produtos.php"
+    },
+    "req_35": {
+        "URL": "https://api.tiny.com.br/api2/pdv.incluir.nota.xml.php"
+    },
+    "req_36": {
+        "URL": "https://api.tiny.com.br/api2/pdv.cancelar.nota.xml.php"
+    },
+    "req_37": {
+        "URL": "http://api.tiny.com.br/api2/grupo.tag.pesquisa.php"
+    },
+    "req_38": {
+        "URL": "https://api.tiny.com.br/api2/grupo.tag.incluir.php"
+    },
+    "req_39": {
+        "URL": "https://api.tiny.com.br/api2/grupo.tag.alterar.php"
+    },
+    "req_40": {
+        "URL": "https://api.tiny.com.br/api2/notas.fiscais.pesquisa.php"
+    },
+    "req_41": {
+        "URL": "https://api.tiny.com.br/api2/nota.fiscal.obter.php"
+    },
+    "req_42": {
+        "URL": "https://api.tiny.com.br/api2/nota.fiscal.incluir.php"
+    },
+    "req_43": {
+        "URL": "https://api.tiny.com.br/api2/nota.fiscal.consumidor.incluir.php"
+    },
+    "req_44": {
+        "URL": "https://api.tiny.com.br/api2/incluir.nota.xml.php"
+    },
+    "req_45": {
+        "URL": "https://api.tiny.com.br/api2/nota.fiscal.obter.xml.php"
+    },
+    "req_46": {
+        "URL": "https://api.tiny.com.br/api2/nota.fiscal.obter.link.php"
+    },
+    "req_47": {
+        "URL": "https://api.tiny.com.br/api2/nota.fiscal.emitir.php"
+    },
+    "req_48": {
+        "URL": "https://api.tiny.com.br/api2/nota.fiscal.cadastrar.codigo.rastreamento.php"
+    },
+    "req_49": {
+        "URL": "https://api.tiny.com.br/api2/nota.fiscal.lancar.estoque.php"
+    },
+    "req_50": {
+        "URL": "https://api.tiny.com.br/api2/nota.fiscal.lancar.contas.php"
+    },
+    "req_51": {
+        "URL": "https://api.tiny.com.br/api2/listas.precos.pesquisa.php"
+    },
+    "req_52": {
+        "URL": "https://api.tiny.com.br/api2/listas.precos.excecoes.php"
+    },
+    "req_53": {
+        "URL": "https://api.tiny.com.br/api2/vendedores.pesquisa.php"
+    },
+    "req_54": {
+        "URL": "https://api.tiny.com.br/api2/expedicao.liberar.objetos.php"
+    },
+    "req_55": {
+        "URL": "https://api.tiny.com.br/api2/expedicao.pesquisa.php"
+    },
+    "req_56": {
+        "URL": "https://api.tiny.com.br/api2/expedicao.pesquisar.agrupamentos.php"
+    },
+    "req_57": {
+        "URL": "https://api.tiny.com.br/api2/expedicao.obter.php"
+    },
+    "req_58": {
+        "URL": "https://api.tiny.com.br/api2/expedicao.alterar.php"
+    },
+    "req_59": {
+        "URL": "https://api.tiny.com.br/api2/expedicao.incluir.agrupamento.php"
+    },
+    "req_60": {
+        "URL": "https://api.tiny.com.br/api2/expedicao.concluir.agrupamento.php"
+    },
+    "req_61": {
+        "URL": "https://api.tiny.com.br/api2/expedicao.obter.agrupamento.impressao.php"
+    },
+    "req_62": {
+        "URL": "https://api.tiny.com.br/api2/expedicao.obter.etiquetas.impressao.php"
+    },
+    "req_63": {
+        "URL": "https://api.tiny.com.br/api2/formas.envio.pesquisa"
+    },
+    "req_64": {
+        "URL": "https://api.tiny.com.br/api2/formas.envio.obter"
+    },
+    "req_65": {
+        "URL": "https://api.tiny.com.br/api2/forma.envio.incluir"
+    },
+    "req_66": {
+        "URL": "https://api.tiny.com.br/api2/forma.frete.incluir"
+    },
+    "req_67": {
+        "URL": "https://api.tiny.com.br/api2/crm.lista.estagios.assunto.php"
+    },
+    "req_68": {
+        "URL": "https://api.tiny.com.br/api2/crm.pesquisa.php"
+    },
+    "req_69": {
+        "URL": "https://api.tiny.com.br/api2/crm.obter.assunto.php"
+    },
+    "req_70": {
+        "URL": "https://api.tiny.com.br/api2/crm.incluir.assunto.php"
+    },
+    "req_71": {
+        "URL": "https://api.tiny.com.br/api2/crm.incluir.acao.assunto.php"
+    },
+    "req_72": {
+        "URL": "https://api.tiny.com.br/api2/crm.alterar.estagio.assunto.php"
+    },
+    "req_73": {
+        "URL": "https://api.tiny.com.br/api2/crm.alterar.situacao.acao.php"
+    },
+    "req_74": {
+        "URL": "https://api.tiny.com.br/api2/notas.servico.pesquisa.php"
+    },
+    "req_75": {
+        "URL": "https://api.tiny.com.br/api2/nota.servico.obter.php"
+    },
+    "req_76": {
+        "URL": "https://api.tiny.com.br/api2/nota.servico.incluir.php"
+    },
+    "req_77": {
+        "URL": "https://api.tiny.com.br/api2/nota.servico.enviar.php"
+    },
+    "req_78": {
+        "URL": "https://api.tiny.com.br/api2/nota.servico.consultar.php"
+    },
+    "req_79": {
+        "URL": "https://api.tiny.com.br/api2/conta.receber.incluir.php"
+    },
+    "req_80": {
+        "URL": "https://api.tiny.com.br/api2/conta.receber.obter.php"
+    },
+    "req_81": {
+        "URL": "https://api.tiny.com.br/api2/conta.receber.obter.php"
+    },
+    "req_82": {
+        "URL": "https://api.tiny.com.br/api2/contas.receber.pesquisa.php"
+    },
+    "req_83": {
+        "URL": "https://api.tiny.com.br/api2/conta.receber.baixar.php"
+    },
+    "req_84": {
+        "URL": "https://api.tiny.com.br/api2/formas.recebimento.pesquisa.php"
+    },
+    "req_85": {
+        "URL": "https://api.tiny.com.br/api2/conta.pagar.incluir.php"
+    },
+    "req_86": {
+        "URL": "https://api.tiny.com.br/api2/conta.pagar.obter.php"
+    },
+    "req_87": {
+        "URL": "https://api.tiny.com.br/api2/contas.pagar.pesquisa.php"
+    },
+    "req_88": {
+        "URL": "https://api.tiny.com.br/api2/conta.pagar.baixar.php"
+    },
+    "req_89": {
+        "URL": "https://api.tiny.com.br/api2/contratos.pesquisa.php"
+    },
+    "req_90": {
+        "URL": "https://api.tiny.com.br/api2/contrato.obter.php"
+    },
+    "req_91": {
+        "URL": "https://api.tiny.com.br/api2/contrato.incluir.php"
+    },
+    "req_92": {
+        "URL": "https://api.tiny.com.br/api2/contrato.alterar.php"
+    },
+    "req_93": {
+        "URL": "https://api.tiny.com.br/api2/contrato.adicional.incluir.php"
+    },
+    "req_94": {
+        "URL": "https://api.tiny.com.br/api2/contrato.adicional.pesquisa.php"
+    },
+    "req_95": {
+        "URL": "https://api.tiny.com.br/api2/contrato.adicional.excluir.php"
+    },
+    "req_96": {
+        "URL": "https://api.tiny.com.br/api2/separacao.pesquisa.php"
+    },
+    "req_97": {
+        "URL": "https://api.tiny.com.br/api2/separacao.obter.php"
+    },
+    "req_98": {
+        "URL": "https://api.tiny.com.br/api2/separacao.alterar.situacao.php"
+    },
+    "req_99": {
+        "URL": "https://api.tiny.com.br/webhook/api/v1/parceiro/{idEcommerce}/cotar"
+    },
+    "req_100": {
+        "URL": "https://api.tiny.com.br/api2/inscricao.incluir.php"
     }
   }
 }
