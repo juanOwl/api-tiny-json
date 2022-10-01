@@ -311,31 +311,110 @@
       "response": ""
     },
     "req_13": {
-        "URL": "https://api.tiny.com.br/api2/pedido.estornar.estoque.php",
-        "args": {
-          "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
-          "id": "",
-          "formato": "JSON"           
-        },
-        "response": ""
+      "URL": "https://api.tiny.com.br/api2/pedido.estornar.estoque.php",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "id": "",
+        "formato": "JSON"
+      },
+      "response": ""
     },
     "req_14": {
-        "URL": "https://api.tiny.com.br/api2/pedido.lancar.contas.php",
-        "args": {
-          "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
-          "id": "",
-          "formato": "JSON"           
-        },
-        "response": ""
+      "URL": "https://api.tiny.com.br/api2/pedido.lancar.contas.php",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "id": "",
+        "formato": "JSON"
+      },
+      "response": ""
     },
     "req_15": {
-        "URL": "https://api.tiny.com.br/api2/pedido.estornar.contas.php",
+      "URL": "https://api.tiny.com.br/api2/pedido.estornar.contas.php",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "id": "",
+        "formato": "JSON"
+      },
+      "response": ""
+    },
+    "req_16": {
+      "URL": "https://api.tiny.com.br/api2/contatos.pesquisa.php",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "pesquisa": "",
+        "formato": "JSON",
+        "cpf_cnpj": "",
+        "idVendedor": "",
+        "nomeVendedor": "",
+        "situacao": "",
+        "pagina": "",
+        "datacriacao": "",
+        "dataMinimaAtualizacao": ""
+      },
+      "response": {
+        "retorno": {
+          "status_processamento": "3",
+          "status": "OK",
+          "pagina": 1,
+          "numero_paginas": 1,
+          "contatos": [
+            {
+              "contato": {
+                "id": "665187824",
+                "codigo": "6",
+                "nome": "daniela",
+                "fantasia": "daniela",
+                "tipo_pessoa": "F",
+                "cpf_cnpj": "047.973.281-77",
+                "endereco": "Rua Alecrim",
+                "numero": "",
+                "complemento": "",
+                "bairro": "Norte (Águas Claras)",
+                "cep": "71.909-360",
+                "cidade": "Brasília",
+                "uf": "DF",
+                "email": "comerce.dani@gmail.com",
+                "fone": "",
+                "id_lista_preco": 0,
+                "id_vendedor": null,
+                "nome_vendedor": "",
+                "situacao": "Ativo",
+                "data_criacao": "28/09/2022 13:45:55"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "req_17": {
+      "URL": "https://api.tiny.com.br/api2/contato.obter.php",
+      "args": {
+        "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+        "id": "",
+        "formato": "JSON"
+      },
+      "response": ""
+    },
+    "req_18": {
+        "URL": "https://api.tiny.com.br/api2/contato.incluir.php",
         "args": {
-          "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
-          "id": "",
-          "formato": "JSON"           
-        },
-        "response": ""
+            "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+            "id": "",
+            "formato": "JSON"
+          },
+          "response": ""
+    },
+    "req_19":{
+        "URL": "https://api.tiny.com.br/api2/contato.alterar.php",
+        "args": {
+            "token": "5926d5666909d73a235f437ed6afa137ba0fb081",
+            "id": "",
+            "formato": "JSON"
+          },
+          "response": ""
+    },
+    "req_19": {
+        "URL": "https://api.tiny.com.br/api2/produtos.pesquisa.php"
     }
   }
 }
